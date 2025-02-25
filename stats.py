@@ -34,9 +34,9 @@ def dict_to_list(dict):
     
 
 
-def report(word_count, character_dict):
+def report(word_count, character_dict, path):
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {path}...")
     print("----------- Word Count ----------")
     print(f"Found {word_count} total words")
     print("--------- Character Count -------")
